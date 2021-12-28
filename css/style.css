@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+h4{
+    font-size: 30px;
+}
+.contain{
+    background: #2f2c2c;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 1500px;
+    height: 100vh;
+    margin: auto;
+    background: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+
+.joueur{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 20px 0px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 60px;
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* IMAGE 1 */
+.image_joueur{
+    position: relative;
+    
+}
+.img{
+    position: absolute;
+}
+
+.img1{
+    background: url("../images/imgbin_jeuxvideo-com-monster-hunter-world-game-internet-forum-wii-png.png") center no-repeat;
+    /* background-color: red; */
+    width: 600px;
+    height: 500px;
+    background-size: contain;
+    
+}
+.img2{
+    background: url("../images/580b57fcd9996e24bc43c308.png") center no-repeat;
+    /* background-color: red; */
+    width: 600px;
+    height: 500px;
+    background-size: contain;
+    display: none;
+}
+.img3{
+    background: url("../images/580b57fcd9996e24bc43c30c.png") center no-repeat;
+    /* background-color: red; */
+    width: 600px;
+    height: 500px;
+    background-size: contain;
+}
+.img4{
+    background: url("../images/580b57fcd9996e24bc43c30d.png") center no-repeat;
+    /* background-color: red; */
+    width: 600px;
+    height: 500px;
+    background-size: contain;
+    
+}
+
+.active{
+    display: block;
+}
+.disble{
+    display: none;
+}
+
+.description_joueur{
+    border: 1px solid black;
+  position: absolute;
+  bottom: 0px;
+}
