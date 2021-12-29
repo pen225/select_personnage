@@ -1,3 +1,12 @@
+:root{
+    /* theme xena */
+    --backgroundColorXena: #e968f7;
+    --textColor: #ecdded;
+
+    /* theme joueur1 */
+    --bgColorContain: #2f2c2c;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -32,7 +41,6 @@ h4{
     width: 600px;
     height: 600px;
     border: 1px solid black;
-    padding: 20px 0px;
     position: relative;
 }
 ul{
@@ -49,13 +57,6 @@ ul li{
 }
 
 /* IMAGE 1 */
-.image_joueur{
-    position: relative;
-    
-}
-.img{
-    position: absolute;
-}
 
 .img1{
     background: url("../images/imgbin_jeuxvideo-com-monster-hunter-world-game-internet-forum-wii-png.png") center no-repeat;
@@ -71,7 +72,7 @@ ul li{
     width: 600px;
     height: 500px;
     background-size: contain;
-    display: none;
+
 }
 .img3{
     background: url("../images/580b57fcd9996e24bc43c30c.png") center no-repeat;
@@ -98,6 +99,6 @@ ul li{
 
 .description_joueur{
     border: 1px solid black;
-  position: absolute;
-  bottom: 0px;
+    position: absolute;
+    bottom: 0px;
 }
